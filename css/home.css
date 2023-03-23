@@ -1,0 +1,14 @@
+body {
+  
+  /*background-image: url("../images/main_bg.jpg");*/
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.main-image {
+  width: 100%; /*이미지가 줄어들어도 잘리지 않음*/
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 35px;
+}

@@ -1,0 +1,77 @@
+.character {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.result {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result .box {
+  min-height: 70px;
+  background-color: #FFFFFF;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.result h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.result .jobs {
+  max-height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  /*내부 컨텐츠간의 gap이 10px 만큼 띄워지도록*/
+}
+
+.result .job {
+  /* flex: 1; job 컨텐츠 간의 비율의 1:1이 되도록 함 */
+  background-color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.result .job img {
+  width: 100%;
+  max-width: 200px;
+  max-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.result .lecture img {
+  margin-bottom: 40px;
+  width: 100%;
+}
